@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Tailwind  using cdn-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    color: {
+                        yellow:'#FECC02',
+                        black:'#131313',
+                        gray: '#4E4E4E',
+                    }
+                }
+            }
+        }
+
+    </script>
+    <title>Simple Landing Page using Tailwind</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="bg-white h-20 fixed top-0 right-0 left-0">
+        <div class=" flex justify-between items-center  h-20 w-full max-w-7xl mx-auto px-5">
+            <h1 class="text-2xl">Jhaka Nakha Production</h1>
+            <ul class="flex text-lg gap-8">
+                <li>About us</li>
+                <li>Our Movies</li>
+                <li>Service</li>
+            </ul>
+        </div>     
+        </nav>
+    <!-- main -->
+        <main>
+            <section class="h-screen pt-20 bg-[url('./images/banner.jpg')] bg-cover">
+                <h1>Tailwind</h1>
+            </sectio
+        
+        </main>
+
+</body>
+
+</html>
